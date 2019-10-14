@@ -101,7 +101,7 @@ counter = 0
 rawData = open("datatext.txt", "r").read()
 # rawData = open("example.txt", "r").read()
 datasets = rawData.split("9999\n")
-
+print(datasets)
 # Create bus objects
 buses = dict()
 bus_set = datasets[0].split('\n')
